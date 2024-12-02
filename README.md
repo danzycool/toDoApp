@@ -5,6 +5,7 @@
 
 This App is a an Ionic App built in React and TypeScript, which serves to schedule activities and events.
 
+
 # Challenges
 This build possed some errors such as:
 
