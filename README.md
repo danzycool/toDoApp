@@ -14,7 +14,7 @@ This build possed some errors such as:
  2.  'TypeError: EventEmitter is not a constructor' in the App.tsx file where i called `initializeParse()`.
     
 # Fixes 
- 1. I added the following lines of code to the index,html file.
+ 1. I added the following lines of code to the index.html file.
 
 ```
 <script>
