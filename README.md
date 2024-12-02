@@ -25,9 +25,8 @@ This build possed some errors such as:
 ```
 
  2. I installed the following packages:
-
-- npm i events    
-- npm i --save-dev @types/events @types/node
+   - npm i events    
+   - npm i --save-dev @types/events @types/node
 
     
 
