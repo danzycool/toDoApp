@@ -9,9 +9,9 @@ This App is a an Ionic App built in React and TypeScript, which serves to schedu
 # Challenges
 This build possed some errors such as:
 
- 1. _'global is undefined'_ in the parse_react.js file.
+ 1. _'global is undefined'_ in the *parse_react.js* file.
 
- 2.  _'TypeError: EventEmitter is not a constructor'_ in the App.tsx file where i called `initializeParse()`.
+ 2.  _'TypeError: EventEmitter is not a constructor'_ in the *App.tsx* file where i called `initializeParse()`.
     
 # Fixes 
  1. I added the following lines of code to the index.html file.
