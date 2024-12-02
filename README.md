@@ -26,6 +26,7 @@ This build possed some errors such as:
  2. I installed the following packages:
 
     i. npm i events.
+    
     ii. npm i --save-dev @types/events @types/node.
 
     
