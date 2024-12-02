@@ -11,23 +11,23 @@ This build possed some errors such as:
 
  1. 'global is undefined' in the parse_react.js file.
 
- 2.  'TypeError: EventEmitter is not a constructor' in the App.tsx file where i called initializeParse().
+ 2.  'TypeError: EventEmitter is not a constructor' in the App.tsx file where i called `initializeParse()`.
     
 # Fixes 
  1. I added the following lines of code to the index,html file.
 
-    <script>
-        if (global === undefined) {
-            var global = window;
-        }
-    </script>
-
+```
+<script>
+   if (global === undefined) {
+       var global = window;
+   }
+</script>
+```
 
  2. I installed the following packages:
 
-    i. npm i events
-    
-    ii. npm i --save-dev @types/events @types/node
+- npm i events    
+- npm i --save-dev @types/events @types/node
 
     
 
