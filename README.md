@@ -7,7 +7,7 @@ This App is a an Ionic App built in React and TypeScript, which serves to schedu
 
 
 # Challenges
-This build possed some errors such as:
+This build posed some errors such as:
 
  1. _'global is undefined'_ in the *parse_react.js* file.
 
