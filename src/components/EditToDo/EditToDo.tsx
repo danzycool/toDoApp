@@ -176,6 +176,8 @@ const EditTodo: FC<{}> = (): ReactElement => {
                       }
                     }, 500);
                   } catch (err: any) {
+                    // Dismiss the Loading Function
+                    dimissLoading();
                     console.log("Error has been found in Delete Todo: " + err);
                   }
                 },
