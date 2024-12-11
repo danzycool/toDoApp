@@ -34,6 +34,7 @@ import '@ionic/react/css/palettes/dark.system.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import EditToDo from './components/EditToDo/EditToDo';
 
 setupIonicReact();
 
@@ -53,6 +54,9 @@ const App: React.FC = () => {
           </Route>
           <Route exact path="/">
             <Redirect to="/home" />
+          </Route>
+          <Route exact path="/Edit">
+            <EditToDo />
           </Route>
         </IonRouterOutlet>
       </IonReactRouter>
