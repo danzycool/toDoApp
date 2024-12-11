@@ -13,7 +13,7 @@
 
 # misc
 .DS_Store
-.env
+
 .env.development.local
 .env.test.local
 .env.production.local
@@ -23,6 +23,7 @@
 !/.vscode/extensions.json
 .idea
 package-lock.json
+firebase.ts
 
 npm-debug.log*
 yarn-debug.log*
